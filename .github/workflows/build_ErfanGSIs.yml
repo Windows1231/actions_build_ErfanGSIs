@@ -42,7 +42,7 @@ jobs:
        - name: Setting up ErfanGSI requirements with Xiaoxin script
          run: |
               cd ErfanGSIs
-              mkdir ./output
+              mkdir./output
               wget https://raw.githubusercontent.com/TimeMapleLing/actions_build_SGSI/main/bin/setup.sh -o setup-xiaoxin.sh
               sudo bash setup-xiaoxin.sh
        
